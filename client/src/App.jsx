@@ -1,9 +1,8 @@
 import { useState } from 'react'
+import LandingPage from "./pages/landing/LandingPage";
 
 function App() {
-  return (
-    <h1>BusinessOS</h1>
-  );
+  return <LandingPage />;
 }
 
-export default App
+export default App;
